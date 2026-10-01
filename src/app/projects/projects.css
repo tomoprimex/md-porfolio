@@ -84,9 +84,9 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
+  width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 1.5rem 3rem;
 }
 
 .project-card {
@@ -234,7 +234,6 @@
   .grid {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 2rem;
-    padding: 0 2rem 4rem;
   }
 
   .project-card {
@@ -382,8 +381,21 @@
     font-size: 2.5rem;
   }
 
+  .projects-grid {
+    padding: 2rem 0;
+  }
+
+  .projects-grid .container {
+    padding: 0 1rem;
+  }
+
   .grid {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .project-image {
+    height: 190px;
   }
 
   .filter-buttons {

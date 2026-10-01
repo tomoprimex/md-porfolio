@@ -119,3 +119,17 @@ img {
   opacity: 1;
   transform: scale(1);
 }
+
+@media (max-width: 768px) {
+  .reveal,
+  .reveal-left,
+  .reveal-right {
+    transform: translateY(24px);
+  }
+
+  .reveal.active,
+  .reveal-left.active,
+  .reveal-right.active {
+    transform: translateY(0);
+  }
+}
