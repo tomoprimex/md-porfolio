@@ -151,7 +151,7 @@
 }
 
 .hero-title {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 900;
   color: var(--primary);
   letter-spacing: -0.05em;
@@ -161,24 +161,30 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-tagline {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--foreground);
   margin-bottom: 1.5rem;
   letter-spacing: -0.02em;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-description {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-muted);
   line-height: 1.8;
   margin-bottom: 2.5rem;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-buttons {
@@ -527,14 +533,17 @@
 
 /* About Section */
 .about-section {
-  padding: 6rem 2rem;
+  padding: 4rem 1.5rem;
   background: var(--background);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .about-content {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
 .about-text {
@@ -545,16 +554,21 @@
 
 /* Services Section */
 .services-section {
-  padding: 6rem 2rem;
+  padding: 4rem 1.5rem;
   background: var(--primary-light);
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .service-card {
@@ -592,16 +606,21 @@
 
 /* Process Section */
 .process-section {
-  padding: 6rem 2rem;
+  padding: 4rem 1.5rem;
   background: var(--background);
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .process-steps {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .process-step {
@@ -641,13 +660,16 @@
 
 /* Final CTA Section */
 .final-cta-section {
-  padding: 8rem 2rem;
+  padding: 5rem 1.5rem;
   background: linear-gradient(135deg, var(--primary), var(--secondary));
   text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .final-cta-content h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 800;
   color: white;
   margin-bottom: 1rem;
@@ -668,16 +690,21 @@
 /* Footer */
 .site-footer {
   background: var(--background);
-  padding: 4rem 2rem 2rem;
+  padding: 3rem 1.5rem 1.5rem;
   border-top: 1px solid var(--card-border);
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .footer-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 3rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   max-width: 1200px;
-  margin: 0 auto 3rem;
+  margin: 0 auto 2rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .footer-section h3 {
@@ -752,53 +779,113 @@
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 800;
   color: var(--foreground);
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   letter-spacing: -0.03em;
 }
 
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+/* Responsive Design */
+@media (min-width: 480px) {
+  .services-grid,
+  .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-tagline {
+    font-size: 1.4rem;
+  }
 }
 
-.service-card {
-  background: var(--card-bg);
-  padding: 2.5rem;
-  border-radius: 16px;
-  border: 1px solid var(--card-border);
-  text-align: center;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 20px var(--shadow);
+@media (min-width: 768px) {
+  .about-section,
+  .services-section,
+  .process-section {
+    padding: 5rem 2rem;
+  }
+
+  .final-cta-section {
+    padding: 6rem 2rem;
+  }
+
+  .section-title {
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .process-steps {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .hero-tagline {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.1rem;
+  }
 }
 
-.service-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 40px var(--shadow);
-}
+@media (min-width: 1024px) {
+  .about-section,
+  .services-section,
+  .process-section {
+    padding: 6rem 2rem;
+  }
 
-.service-icon {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-}
+  .final-cta-section {
+    padding: 8rem 2rem;
+  }
 
-.service-card h3 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--foreground);
-  margin-bottom: 1rem;
-  letter-spacing: -0.02em;
-}
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
 
-.service-card p {
-  color: var(--text-muted);
-  line-height: 1.6;
+  .footer-content {
+    gap: 3rem;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .process-steps {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .final-cta-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+  }
+
+  .hero-tagline {
+    font-size: 1.5rem;
+  }
 }
 
 /* CTA Section */

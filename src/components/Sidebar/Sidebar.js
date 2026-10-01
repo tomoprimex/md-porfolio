@@ -32,6 +32,7 @@ export default function Sidebar() {
 
   return (
     <>
+      {isMobileOpen && <div className="sidebar-overlay" onClick={() => setIsMobileOpen(false)} />}
       <aside className={`sidebar ${isMobileOpen ? 'mobile-open' : ''}`}>
         <div className="sidebar-content">
           <div className="logo-section">
