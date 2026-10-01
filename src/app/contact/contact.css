@@ -133,7 +133,7 @@
 }
 
 .social-btn:hover {
-  background: var(--primary);
+  background: var(--gradient-accent);
   color: white;
   transform: translateY(-2px);
 }
@@ -198,14 +198,14 @@
 .success-message {
   text-align: center;
   padding: 3rem 2rem;
-  background: var(--primary-light);
+  background: var(--gradient-soft), var(--primary-light);
   border-radius: 16px;
 }
 
 .success-icon {
   width: 60px;
   height: 60px;
-  background: var(--primary);
+  background: var(--gradient-accent);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -242,14 +242,14 @@
 }
 
 .btn-primary {
-  background: var(--primary);
+  background: var(--gradient-accent);
   color: white;
 }
 
 .btn-primary:hover {
-  background: var(--secondary);
+  background: var(--gradient-deep);
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(0, 102, 204, 0.3);
+  box-shadow: 0 10px 30px rgba(14, 124, 90, 0.3);
 }
 
 .btn-large {
@@ -286,6 +286,7 @@
 }
 
 .faq-card {
+  position: relative;
   background: var(--card-bg);
   padding: 2rem;
   border-radius: 16px;
@@ -294,9 +295,25 @@
   box-shadow: 0 4px 20px var(--shadow);
 }
 
+.faq-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--gradient-accent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
 .faq-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 30px var(--shadow);
+}
+
+.faq-card:hover::before {
+  opacity: 1;
 }
 
 .faq-question {
@@ -477,21 +494,86 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
   .page-title {
-    font-size: 2.5rem;
+    font-size: clamp(1.75rem, 8vw, 2.5rem);
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+  }
+
+  .contact-header {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .contact-content {
+    padding: 2.5rem 1.25rem;
   }
 
   .contact-grid {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 2rem;
+  }
+
+  .contact-info,
+  .contact-form-wrapper {
+    padding: 1.5rem;
+  }
+
+  .info-title,
+  .form-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .info-description {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-details {
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-form {
+    gap: 1.25rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 1rem;
+    padding: 0.75rem 0.875rem;
+  }
+
+  .faq-section {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.75rem;
   }
 
   .faq-grid {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
   }
 
-  .section-title {
-    font-size: 2rem;
+  .faq-card {
+    padding: 1.5rem;
+  }
+
+  .faq-question {
+    font-size: 1.1rem;
+  }
+
+  .faq-answer {
+    font-size: 0.9rem;
   }
 
   .social-buttons {
@@ -501,5 +583,35 @@
   .social-btn {
     width: 100%;
     text-align: center;
+  }
+
+  .site-footer {
+    padding: 2.5rem 1.25rem 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .btn,
+  .btn-large {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 0 0.875rem;
+  }
+
+  .contact-header,
+  .contact-content,
+  .faq-section,
+  .site-footer {
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
   }
 }
