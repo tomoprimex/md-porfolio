@@ -9,12 +9,12 @@ export default function Home() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const featuredImages = [
-    { src: '/image/JAYKAY/JK LOGO.png', title: 'Jaykay Delights Branding', subtitle: 'Complete Brand Identity' },
-    { src: '/image/JAYKAY/BUYMORE/PLANTAIN CHIPS_RIPE.jpg', title: 'Buymore Product Branding', subtitle: 'Product Packaging Design' },
-    { src: '/image/JAYKAY/FLYERS/2026/february/HAPPY VAL.jpg', title: 'Seasonal Promotional Flyers', subtitle: 'Holiday Campaign Design' },
-    { src: '/image/JAYKAY/CHIN CHIN.jpg', title: 'Chin Chin Product Design', subtitle: 'Snack Packaging' },
-    { src: '/image/JAYKAY/BRO WOLE/ABANACARS CAFE/ABANACARS CAFE LOGO.PNG', title: 'Abanacars Cafe Logo', subtitle: 'Restaurant Branding' },
-    { src: '/image/JAYKAY/FLYERS/2026/APRIL_JK/JK_BACKDROP.png', title: 'Event Backdrop Design', subtitle: 'Large Format Print' },
+    { src: '/image/JAYKAY/JK LOGO.png', title: 'Jaykay Delights Branding', subtitle: 'Complete Brand Identity', alt: 'Jaykay Delights complete brand identity logo design featuring modern typography and visual elements' },
+    { src: '/image/JAYKAY/BUYMORE/PLANTAIN CHIPS_RIPE.jpg', title: 'Buymore Product Branding', subtitle: 'Product Packaging Design', alt: 'Buymore plantain chips product packaging design with vibrant branding and nutritional information' },
+    { src: '/image/JAYKAY/FLYERS/2026/february/HAPPY VAL.jpg', title: 'Seasonal Promotional Flyers', subtitle: 'Holiday Campaign Design', alt: 'Seasonal promotional flyer design for holiday campaign with festive graphics and promotional offers' },
+    { src: '/image/JAYKAY/CHIN CHIN.jpg', title: 'Chin Chin Product Design', subtitle: 'Snack Packaging', alt: 'Chin chin snack product packaging design with appetizing imagery and brand elements' },
+    { src: '/image/JAYKAY/BRO WOLE/ABANACARS CAFE/ABANACARS CAFE LOGO.PNG', title: 'Abanacars Cafe Logo', subtitle: 'Restaurant Branding', alt: 'Abanacars Cafe restaurant logo design with professional branding for food service business' },
+    { src: '/image/JAYKAY/FLYERS/2026/APRIL_JK/JK_BACKDROP.png', title: 'Event Backdrop Design', subtitle: 'Large Format Print', alt: 'Large format event backdrop design for product launch with professional graphics and branding' },
   ];
 
   const testimonials = [
@@ -136,8 +136,9 @@ export default function Home() {
                     <div className="featured-image">
                       <img 
                         src={image.src} 
-                        alt={image.title}
+                        alt={image.alt}
                         className="featured-img"
+                        loading="lazy"
                       />
                     </div>
                     <div className="featured-info">
@@ -258,49 +259,17 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="final-cta-section">
-            <div className="container">
-              <div className="final-cta-content reveal-scale">
-                <h2>Ready to Start Your Project?</h2>
-                <p>Let's create something amazing together. Get in touch and let's bring your vision to life.</p>
-                <Link href="/contact" className="btn btn-primary btn-large">
-                  Start Your Project
-                </Link>
-              </div>
-            </div>
-          </section>
-
           <footer className="site-footer">
             <div className="container">
               <div className="footer-content">
                 <div className="footer-section">
                   <h3>MD Digital Solutions</h3>
-                  <p>Professional graphics design services for brands that want to stand out.</p>
+                  <p>Professional graphics design services</p>
                 </div>
                 <div className="footer-section">
-                  <h3>Contact</h3>
-                  <div className="contact-item">
-                    <span className="contact-icon">📧</span>
-                    <a href="mailto:Mdgraphics04@gmail.com" className="contact-link">Mdgraphics04@gmail.com</a>
-                  </div>
-                  <div className="contact-item">
-                    <span className="contact-icon">📱</span>
-                    <a href="https://wa.me/2348104095304" className="contact-link">+234 810 409 5304</a>
-                  </div>
-                </div>
-                <div className="footer-section">
-                  <h3>Social</h3>
-                  <div className="social-links">
-                    <a href="https://instagram.com/Md_digitals01" className="social-link">
-                      <span className="social-icon">📷</span> Instagram
-                    </a>
-                    <a href="https://www.behance.net/mdgraphics04" className="social-link">
-                      <span className="social-icon">🎨</span> Behance
-                    </a>
-                    <a href="https://pin.it/1QnbXeKy4" className="social-link">
-                      <span className="social-icon">📌</span> Pinterest
-                    </a>
-                  </div>
+                  <a href="mailto:Mdgraphics04@gmail.com" className="footer-contact">
+                    Mdgraphics04@gmail.com
+                  </a>
                 </div>
               </div>
               <div className="footer-bottom">
@@ -313,7 +282,7 @@ export default function Home() {
             <div className="image-modal" onClick={() => setSelectedImage(null)}>
               <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                 <button className="modal-close" onClick={() => setSelectedImage(null)}>×</button>
-                <img src={selectedImage.src} alt={selectedImage.title} className="modal-image" />
+                <img src={selectedImage.src} alt={selectedImage.alt || selectedImage.title} className="modal-image" />
                 <div className="modal-info">
                   <h3>{selectedImage.title}</h3>
                   <p>{selectedImage.subtitle}</p>
@@ -321,18 +290,6 @@ export default function Home() {
               </div>
             </div>
           )}
-
-          <section className="cta-section">
-            <div className="container">
-              <div className="cta-content reveal-scale">
-                <h2>Ready to Elevate Your Brand?</h2>
-                <p>Let's create something amazing together.</p>
-                <Link href="/contact" className="btn btn-primary btn-large">
-                  Get In Touch
-                </Link>
-              </div>
-            </div>
-          </section>
         </div>
     </>
   );

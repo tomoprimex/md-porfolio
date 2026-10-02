@@ -12,7 +12,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Complete brand identity design for Jaykay Delights including logo, product packaging, and visual guidelines.',
     tools: ['Illustrator', 'Photoshop', 'CorelDRAW'],
-    image: '/image/JAYKAY/JK LOGO.png'
+    image: '/image/JAYKAY/JK LOGO.png',
+    alt: 'Jaykay Delights complete brand identity logo design featuring modern typography and visual elements'
   },
   {
     id: 2,
@@ -21,7 +22,8 @@ const projects = [
     for: 'Buymore',
     description: 'Product packaging and branding design for Buymore snack products including plantain chips and kulikuli.',
     tools: ['Illustrator', 'Photoshop', 'InDesign'],
-    image: '/image/JAYKAY/BUYMORE/PLANTAIN CHIPS_RIPE.jpg'
+    image: '/image/JAYKAY/BUYMORE/PLANTAIN CHIPS_RIPE.jpg',
+    alt: 'Buymore plantain chips product packaging design with vibrant branding and nutritional information'
   },
   {
     id: 3,
@@ -30,7 +32,8 @@ const projects = [
     for: 'Abanacars Cafe',
     description: 'Complete brand identity for Abanacars Cafe including logo, menu design, and promotional materials.',
     tools: ['Illustrator', 'Photoshop', 'InDesign'],
-    image: '/image/JAYKAY/BRO WOLE/ABANACARS CAFE/ABANACARS CAFE LOGO.PNG'
+    image: '/image/JAYKAY/BRO WOLE/ABANACARS CAFE/ABANACARS CAFE LOGO.PNG',
+    alt: 'Abanacars Cafe restaurant logo design with professional branding for food service business'
   },
   {
     id: 4,
@@ -39,7 +42,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Professional product photography combined with graphic design for marketing materials and social media.',
     tools: ['Photoshop', 'Lightroom', 'Illustrator'],
-    image: '/image/JAYKAY/CHIN CHIN.jpg'
+    image: '/image/JAYKAY/CHIN CHIN.jpg',
+    alt: 'Professional product photography of chin chin snack with graphic design overlays for marketing materials'
   },
   {
     id: 5,
@@ -48,7 +52,8 @@ const projects = [
     for: 'Buymore',
     description: 'Regulatory compliance packaging design meeting NAFDAC standards for Buymore product line.',
     tools: ['Illustrator', 'Photoshop', 'InDesign'],
-    image: '/image/JAYKAY/BUYMORE/NAFDAC/BUYMORE_CHIN CHIN.png'
+    image: '/image/JAYKAY/BUYMORE/NAFDAC/BUYMORE_CHIN CHIN.png',
+    alt: 'NAFDAC compliant chin chin product packaging design with regulatory information and safety labels'
   },
   {
     id: 6,
@@ -57,7 +62,8 @@ const projects = [
     for: 'Ose 2027',
     description: 'Political campaign branding including logo design and promotional materials for Ose 2027.',
     tools: ['Illustrator', 'Photoshop', 'CorelDRAW'],
-    image: '/image/JAYKAY/BRO WOLE/OSE 2027/LOGOS/5.png'
+    image: '/image/JAYKAY/BRO WOLE/OSE 2027/LOGOS/5.png',
+    alt: 'Ose 2027 political campaign logo design with professional branding and promotional materials'
   },
   {
     id: 7,
@@ -66,7 +72,8 @@ const projects = [
     for: 'Buymore',
     description: 'Product packaging design for Buymore potato chips with vibrant branding and nutritional information.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/BUYMORE/POTATO CHIPS.png'
+    image: '/image/JAYKAY/BUYMORE/POTATO CHIPS.png',
+    alt: 'Buymore potato chips product packaging design with vibrant branding and nutritional information'
   },
   {
     id: 8,
@@ -75,7 +82,8 @@ const projects = [
     for: 'Buymore',
     description: 'Packaging design for ripe plantain chips featuring appetizing product imagery and brand elements.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/BUYMORE/RIPE.png'
+    image: '/image/JAYKAY/BUYMORE/RIPE.png',
+    alt: 'Ripe plantain chips packaging design with appetizing product imagery and brand elements'
   },
   {
     id: 9,
@@ -84,7 +92,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Traditional snack packaging design for kulikuli with cultural elements and modern branding.',
     tools: ['Photoshop', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/february/KULI KULI.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/KULI KULI.jpg',
+    alt: 'Traditional kulikuli snack packaging design with cultural elements and modern branding'
   },
   {
     id: 10,
@@ -93,7 +102,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Beverage packaging design for ginger drink product with refreshing visual identity.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/FLYERS/2026/february/GINGER DRINK.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/GINGER DRINK.jpg',
+    alt: 'Ginger drink beverage packaging design with refreshing visual identity and brand elements'
   },
   {
     id: 11,
@@ -102,7 +112,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Tropical fruit juice packaging design with vibrant colors and appetizing imagery.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/FLYERS/2026/february/MANGO JUICE.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/MANGO JUICE.jpg',
+    alt: 'Tropical mango juice packaging design with vibrant colors and appetizing product imagery'
   },
   {
     id: 12,
@@ -111,7 +122,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Traditional tigernut beverage packaging with cultural authenticity and modern appeal.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/FLYERS/2026/february/TIGERNUT.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/TIGERNUT.jpg',
+    alt: 'Traditional tigernut beverage packaging design with cultural authenticity and modern appeal'
   },
   {
     id: 13,
@@ -120,7 +132,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Unique tamarind beverage packaging design with distinctive flavor representation.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/FLYERS/2026/february/TAMARIND DRINK.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/TAMARIND DRINK.jpg',
+    alt: 'Unique tamarind beverage packaging design with distinctive flavor representation and branding'
   },
   {
     id: 14,
@@ -129,7 +142,8 @@ const projects = [
     for: 'Buymore',
     description: 'Spice product packaging design for chilli powder with bold branding and safety information.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/BUYMORE/CHILLI POWDER.png'
+    image: '/image/JAYKAY/BUYMORE/CHILLI POWDER.png',
+    alt: 'Chilli powder spice product packaging design with bold branding and safety information'
   },
   {
     id: 15,
@@ -138,7 +152,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Snack product packaging for peanuts burger with playful branding and nutritional highlights.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/FLYERS/2026/february/PEANUTS BURGER.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/PEANUTS BURGER.jpg',
+    alt: 'Peanuts burger snack product packaging with playful branding and nutritional highlights'
   },
   {
     id: 16,
@@ -147,7 +162,8 @@ const projects = [
     for: 'Buymore',
     description: 'Product label and sticker design for kulikuli packaging with brand consistency.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/BUYMORE/SQUARE STICKERS/BUYMORE_KULIKULI.jpg'
+    image: '/image/JAYKAY/BUYMORE/SQUARE STICKERS/BUYMORE_KULIKULI.jpg',
+    alt: 'Kulikuli product label and sticker design with brand consistency and visual elements'
   },
   {
     id: 17,
@@ -156,7 +172,8 @@ const projects = [
     for: 'Abujacar',
     description: 'Complete brand identity for Abujacar including logo design and promotional materials.',
     tools: ['Illustrator', 'Photoshop', 'CorelDRAW'],
-    image: '/image/JAYKAY/Abujacar.jpg'
+    image: '/image/JAYKAY/Abujacar.jpg',
+    alt: 'Abujacar complete brand identity design including logo and promotional materials'
   },
   {
     id: 18,
@@ -165,7 +182,8 @@ const projects = [
     for: 'Olusco',
     description: 'Product packaging box design with modern branding and product information layout.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/olusco box.jpg'
+    image: '/image/JAYKAY/olusco box.jpg',
+    alt: 'Olusco product packaging box design with modern branding and product information layout'
   },
   {
     id: 19,
@@ -174,7 +192,8 @@ const projects = [
     for: 'Buymore',
     description: 'Packaging design for unripe plantain chips with fresh green color scheme.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/BUYMORE/UR.png'
+    image: '/image/JAYKAY/BUYMORE/UR.png',
+    alt: 'Unripe plantain chips packaging design with fresh green color scheme and brand elements'
   },
   {
     id: 20,
@@ -183,7 +202,8 @@ const projects = [
     for: 'Buymore',
     description: 'Packaging design for spicy plantain chips with bold flavor indicators.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/BUYMORE/UR_SPICY.png'
+    image: '/image/JAYKAY/BUYMORE/UR_SPICY.png',
+    alt: 'Spicy plantain chips packaging design with bold flavor indicators and heat level graphics'
   },
   {
     id: 21,
@@ -192,7 +212,8 @@ const projects = [
     for: 'Buymore',
     description: 'Spicy variant packaging for potato chips with heat level indicators.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/BUYMORE/POTATO CHIPS_SPICY.png'
+    image: '/image/JAYKAY/BUYMORE/POTATO CHIPS_SPICY.png',
+    alt: 'Spicy potato chips variant packaging design with heat level indicators and bold branding'
   },
   {
     id: 22,
@@ -201,7 +222,8 @@ const projects = [
     for: 'Buymore',
     description: 'Combination packaging for ripe and spicy plantain chips variant.',
     tools: ['Illustrator', 'Photoshop'],
-    image: '/image/JAYKAY/BUYMORE/RIPE_SPICY.png'
+    image: '/image/JAYKAY/BUYMORE/RIPE_SPICY.png',
+    alt: 'Ripe and spicy plantain chips combination packaging design with flavor indicators'
   },
 
   // FLYERS PROJECTS (20+)
@@ -212,7 +234,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Series of promotional flyers for Jaykay products including yoghurts, chin chin, and plantain chips.',
     tools: ['Photoshop', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/february/YOGHURTS.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/YOGHURTS.jpg',
+    alt: 'Jaykay Delights product promotional flyers featuring yoghurts, chin chin, and plantain chips with vibrant branding'
   },
   {
     id: 24,
@@ -221,7 +244,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Seasonal flyer designs for special occasions including Valentine\'s Day, Easter, and holiday promotions.',
     tools: ['Photoshop', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/february/HAPPY VAL.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/HAPPY VAL.jpg',
+    alt: 'Seasonal promotional flyer design for holiday campaign with festive graphics and special offers'
   },
   {
     id: 25,
@@ -230,7 +254,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Large format event backdrop designs for product launches and promotional events.',
     tools: ['Photoshop', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/APRIL_JK/JK_BACKDROP.png'
+    image: '/image/JAYKAY/FLYERS/2026/APRIL_JK/JK_BACKDROP.png',
+    alt: 'Large format event backdrop design for product launch with professional graphics and branding'
   },
   {
     id: 26,
@@ -239,7 +264,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Professional price list designs for distribution across multiple locations and digital platforms.',
     tools: ['Photoshop', 'Illustrator', 'InDesign'],
-    image: '/image/JAYKAY/FLYERS/2026/PRICE LIST/PRICE LIST 1.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/PRICE LIST/PRICE LIST 1.jpg',
+    alt: 'Professional price list design with clear product pricing and branding for distribution'
   },
   {
     id: 27,
@@ -248,7 +274,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Grand opening promotional materials including flyers, banners, and social media graphics.',
     tools: ['Photoshop', 'Illustrator', 'Canva'],
-    image: '/image/JAYKAY/FLYERS/2026/APRIL_JK/GRAND OPENING.png'
+    image: '/image/JAYKAY/FLYERS/2026/APRIL_JK/GRAND OPENING.png',
+    alt: 'Grand opening promotional flyer design with celebratory graphics and launch information'
   },
   {
     id: 28,
@@ -374,7 +401,8 @@ const projects = [
     for: 'Abanacars Cafe',
     description: 'Seasonal promotional flyer for Ramadan special offers and menu items.',
     tools: ['Photoshop', 'Illustrator'],
-    image: '/image/JAYKAY/BRO WOLE/ABANACARS CAFE/RAMADAN SALES.jpg'
+    image: '/image/JAYKAY/BRO WOLE/ABANACARS CAFE/RAMADAN SALES.jpg',
+    alt: 'Ramadan seasonal promotional flyer for Abanacars Cafe with special offers and menu items'
   },
   {
     id: 42,
@@ -383,7 +411,8 @@ const projects = [
     for: 'Abanacars Cafe',
     description: 'Recruitment flyer design for cafe staff positions with professional branding.',
     tools: ['Photoshop', 'Illustrator'],
-    image: '/image/JAYKAY/BRO WOLE/ABANACARS CAFE/ABANACARS/WE ARE HIRING.png'
+    image: '/image/JAYKAY/BRO WOLE/ABANACARS CAFE/ABANACARS/WE ARE HIRING.png',
+    alt: 'Abanacars Cafe recruitment flyer design for hiring staff with professional branding'
   },
   {
     id: 43,
@@ -392,7 +421,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Promotional flyer announcing free delivery service for Ekiti and Abuja regions.',
     tools: ['Photoshop', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/APRIL_JK/FREE DELIVERY (EKITI AND ABUJA).png'
+    image: '/image/JAYKAY/FLYERS/2026/APRIL_JK/FREE DELIVERY (EKITI AND ABUJA).png',
+    alt: 'Free delivery promotional flyer for Ekiti and Abuja regions with service information'
   },
 
   // SOCIAL MEDIA PROJECTS (20+)
@@ -403,7 +433,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Social media carousel designs and promotional graphics for Jaykay Delights marketing campaigns.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_01.gif'
+    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_01.gif',
+    alt: 'Jaykay Delights social media carousel design for marketing campaigns with animated graphics'
   },
   {
     id: 45,
@@ -412,7 +443,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Social media graphics for Chowdeck partnership announcement and promotional campaign.',
     tools: ['Photoshop', 'Illustrator', 'Canva'],
-    image: '/image/JAYKAY/FLYERS/2026/MAY_JK/FLYERS/JAYKAY ON CHOWDECK.png'
+    image: '/image/JAYKAY/FLYERS/2026/MAY_JK/FLYERS/JAYKAY ON CHOWDECK.png',
+    alt: 'Chowdeck partnership announcement social media graphics with promotional campaign branding'
   },
   {
     id: 46,
@@ -421,7 +453,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Social media graphics promoting free delivery service for specific regions.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/MAY_JK/FREE DELIVERY STARTS TODAY.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/MAY_JK/FREE DELIVERY STARTS TODAY.jpg',
+    alt: 'Free delivery campaign social media graphics promoting regional delivery service'
   },
   {
     id: 47,
@@ -430,7 +463,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Behind-the-scenes content design showcasing production facility and quality standards.',
     tools: ['Photoshop', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/MARCH_JAYKAY/FACTORY REVEAL.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/MARCH_JAYKAY/FACTORY REVEAL.jpg',
+    alt: 'Behind-the-scenes factory reveal content showcasing production facility and quality standards'
   },
   {
     id: 48,
@@ -439,7 +473,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Social media carousel series introducing Jaykay Delights brand and products.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_01.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_01.gif',
+    alt: 'Jaykay Delights social media carousel slide introducing brand and products'
   },
   {
     id: 49,
@@ -448,7 +483,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Second slide in carousel series featuring product highlights.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_02.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_02.gif',
+    alt: 'Jaykay Delights carousel slide featuring product highlights and variety'
   },
   {
     id: 50,
@@ -457,7 +493,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Third carousel slide showcasing brand values and quality commitment.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_03.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_03.gif',
+    alt: 'Jaykay Delights carousel slide showcasing brand values and quality commitment'
   },
   {
     id: 51,
@@ -466,7 +503,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Fourth carousel slide with customer testimonials and reviews.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_04.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_04.gif',
+    alt: 'Jaykay Delights carousel slide with customer testimonials and reviews'
   },
   {
     id: 52,
@@ -475,7 +513,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Fifth carousel slide featuring product range and variety.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_05.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_05.gif',
+    alt: 'Jaykay Delights carousel slide featuring product range and variety'
   },
   {
     id: 53,
@@ -484,7 +523,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Sixth carousel slide with promotional offers and call-to-action.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_06.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_06.gif',
+    alt: 'Jaykay Delights carousel slide with promotional offers and call-to-action'
   },
   {
     id: 54,
@@ -493,7 +533,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Seventh carousel slide highlighting health benefits of products.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_07.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_07.gif',
+    alt: 'Jaykay Delights carousel slide highlighting health benefits of products'
   },
   {
     id: 55,
@@ -502,7 +543,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Eighth carousel slide with distribution network information.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_08.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_08.gif',
+    alt: 'Jaykay Delights carousel slide with distribution network information'
   },
   {
     id: 56,
@@ -511,7 +553,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Ninth carousel slide featuring customer success stories.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_09.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_09.gif',
+    alt: 'Jaykay Delights carousel slide featuring customer success stories'
   },
   {
     id: 57,
@@ -520,7 +563,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Tenth carousel slide with brand vision and future plans.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_10.gif'
+    image: '/image/JAYKAY/FLYERS/MAY/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_10.gif',
+    alt: 'Jaykay Delights carousel slide with brand vision and future plans'
   },
   {
     id: 58,
@@ -529,7 +573,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Social media content for Jaykay Delights Academy training programs.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_01.gif'
+    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_01.gif',
+    alt: 'Jaykay Delights Academy social media content for training programs'
   },
   {
     id: 59,
@@ -538,7 +583,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Social media graphics showcasing fabrication and production capabilities.',
     tools: ['Photoshop', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/february/JAYKAY FABRICATION.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/JAYKAY FABRICATION.jpg',
+    alt: 'Jaykay Delights fabrication facility showcase with production capabilities'
   },
   {
     id: 60,
@@ -547,7 +593,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Social media referral program graphics with incentives and rewards.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/february/REFER AND WIN.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/REFER AND WIN.jpg',
+    alt: 'Jaykay Delights refer and win campaign social media graphics with referral incentives'
   },
   {
     id: 61,
@@ -556,7 +603,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'Monthly social media greeting design for February with seasonal themes.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/february/Hello February.jpg'
+    image: '/image/JAYKAY/FLYERS/2026/february/Hello February.jpg',
+    alt: 'February monthly social media greeting design with seasonal themes'
   },
   {
     id: 62,
@@ -565,7 +613,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'June carousel series second slide with summer promotional content.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_02.gif'
+    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_02.gif',
+    alt: 'Jaykay Delights June carousel slide with summer promotional content'
   },
   {
     id: 63,
@@ -574,7 +623,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'June carousel third slide with product showcase.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_03.gif'
+    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_03.gif',
+    alt: 'Jaykay Delights June carousel slide with product showcase'
   },
   {
     id: 64,
@@ -583,7 +633,8 @@ const projects = [
     for: 'Jaykay Delights',
     description: 'June carousel fourth slide with customer engagement content.',
     tools: ['Photoshop', 'Canva', 'Illustrator'],
-    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_04.gif'
+    image: '/image/JAYKAY/FLYERS/2026/JUNE_JK/images/JAYKAY-CAROUSEL-(MEET-JAYKAY-DELIGHTS)_04.gif',
+    alt: 'Jaykay Delights June carousel slide with customer engagement content'
   }
 ];
 
@@ -661,8 +712,9 @@ export default function Projects() {
                 <div className="project-image" onClick={() => setSelectedImage(project)}>
                   <img 
                     src={project.image} 
-                    alt={project.name}
+                    alt={project.alt || project.name}
                     className="project-img"
+                    loading="lazy"
                   />
                 </div>
                 <div className="project-info">
@@ -699,7 +751,7 @@ export default function Projects() {
         <div className="image-modal" onClick={() => setSelectedImage(null)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="modal-close" onClick={() => setSelectedImage(null)}>×</button>
-            <img src={selectedImage.image} alt={selectedImage.name} className="modal-image" />
+            <img src={selectedImage.image} alt={selectedImage.alt || selectedImage.name} className="modal-image" />
             <div className="modal-info">
               <h3>{selectedImage.name}</h3>
               <p>For: {selectedImage.for}</p>

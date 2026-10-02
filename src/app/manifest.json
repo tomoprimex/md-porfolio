@@ -1,0 +1,23 @@
+{
+  "name": "MD Digital Solutions",
+  "short_name": "MD Digital",
+  "description": "Professional graphics design portfolio featuring branding, social media design, flyers, and posters by Aduragnemi Michael.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "/image/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/image/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

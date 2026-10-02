@@ -206,32 +206,12 @@ export default function Contact() {
           <div className="footer-content">
             <div className="footer-section">
               <h3>MD Digital Solutions</h3>
-              <p>Professional graphics design services for brands that want to stand out.</p>
+              <p>Professional graphics design services</p>
             </div>
             <div className="footer-section">
-              <h3>Contact</h3>
-              <div className="contact-item">
-                <span className="contact-icon">📧</span>
-                <a href="mailto:Mdgraphics04@gmail.com" className="contact-link">Mdgraphics04@gmail.com</a>
-              </div>
-              <div className="contact-item">
-                <span className="contact-icon">📱</span>
-                <a href="https://wa.me/2348104095304" className="contact-link">+234 810 409 5304</a>
-              </div>
-            </div>
-            <div className="footer-section">
-              <h3>Social</h3>
-              <div className="social-links">
-                <a href="https://instagram.com/Md_digitals01" className="social-link">
-                  <span className="social-icon">📷</span> Instagram
-                </a>
-                <a href="https://www.behance.net/mdgraphics04" className="social-link">
-                  <span className="social-icon">🎨</span> Behance
-                </a>
-                <a href="https://pin.it/1QnbXeKy4" className="social-link">
-                  <span className="social-icon">📌</span> Pinterest
-                </a>
-              </div>
+              <a href="mailto:Mdgraphics04@gmail.com" className="footer-contact">
+                Mdgraphics04@gmail.com
+              </a>
             </div>
           </div>
           <div className="footer-bottom">

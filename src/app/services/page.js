@@ -137,18 +137,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-
-      <section className="cta-section">
-        <div className="container">
-          <div className="cta-content reveal-scale">
-            <h2>Ready to Get Started?</h2>
-            <p>Let's discuss how I can help bring your vision to life.</p>
-            <Link href="/contact" className="btn btn-primary btn-large">
-              Get In Touch
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
